@@ -5,6 +5,10 @@
   </head>
   <body>
     <script>
+        let Chess = [];
+        let Cricket = [];
+        let Football = [];
+        let Table_tennis = [];
         let players = [{
             Name: 'Rupesh' ,
             Sports: ['Chess', 'Cricket','Football','Table-Tennis']
@@ -17,10 +21,7 @@
             Name: 'Mohit' ,
             Sports: ['Table-Tennis', 'Football']
         }]
-        let Chess = [];
-        let Cricket = [];
-        let Football = [];
-        let Table_tennis = [];
+        
         players.forEach((players_One) => {
          players_One.Sports.forEach((sports_one) => {
                 if(sports_one === `Chess`){
